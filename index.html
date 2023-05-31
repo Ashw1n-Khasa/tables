@@ -5,54 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="table.css"/>
+    
 </head>
 <body>
-    <style>
-        table {
-          border-collapse:collapse;
-          font-family: Arial, sans-serif;
-          border:1px solid black;
-        }
-      
-        table th {
-          padding: 8px;
-          /* margin-right:; */
-          border-right: 1px solid black;
-          border-bottom: 1px solid black;
-          font-weight: bold;
-        }
 
-        table tr{
-            border-bottom: none;
-        }
-        table td{
-            border-right: 1px solid black;
-            /* border-bottom:none; */
-            padding: 10px;
-        }
-
-        .bottom-line{
-            border-bottom: 1px solid black;
-        }
-      </style>
-      
-      <table>
-        <thead>
-          <tr>
+    <table border="1" cellspacing="0" cellpadding="10">
+        <tr>
             <th>Talent Acquisition</th>
             <th>HR Operations</th>
             <th>Talent Development</th>
             <th>Compensation</th>
           </tr>
-        </thead>
-        <tbody>
-          <tr>
+
+          <tr >
             <td>Number of hires</td>
             <td>headcount</td>
             <td>training hours</td>
             <td>compa-ratio</td>
           </tr>
+
           <tr>
             <td>TA budget</td>
             <td>attrition rate</td>
@@ -84,14 +55,269 @@
             <td></td>
           </tr>
           <tr>
-            <td class="bottom-line">Candidate satisfaction</td>
-            <td class="bottom-line"></td>
-            <td class="bottom-line"></td>
-            <td class="bottom-line"></td>
+            <td >Candidate satisfaction</td>
+            <td ></td>
+            <td ></td>
+            <td ></td>
           </tr>
-        </tbody>
-      </table>
-      
-      
+    </table> <br>
+
+<table border="1" width="67%" cellspacing="0" cellpadding="10" >
+        <tr>
+            <th>HR Function</th>
+            <th>Metric</th>
+            <th>Insight</th>
+        </tr>
+        
+        <tr>
+            <td rowspan="3">Talent Acquisition</td>
+            <td># applicants to # resumes
+                reviewed</td>
+                <td>Size of untouched IP. If your recruiters are only
+                    looking at 10% of applicants, how much value
+                    are you leaving on the table with the other
+                    90%?</td>
+        </tr>
+        <tr>
+            <td># interviews to # hires</td>
+            <td>Efficiency of your hiring funnel. The perfect
+                efficiency ratio is 1, but if you are seeing this
+                ratio increase over time, why is it taking more
+                interviews to arrive at a decision?</td>
+        </tr>
+
+        <tr>
+            <td>Hours per hire</td>
+            <td>Efficiency of your recruiting process. If hiring
+                managers and interviewers are spending more
+                time making a hire, how much time/productivity
+                is taken away from them doing their actual
+                jobs?</td>
+        </tr>
+
+        <tr>
+            <td rowspan="2">HR Operations</td>
+            <td>Revenue per employee</td>
+            <td>How much money each employee generates
+                for the company. A higher ratio typically
+                indicates greater productivity and profits.</td>
+
+        </tr>
+
+        <tr>
+            <td>HR expense to employees</td>
+            <td>Efficiency of the HR organization. As an
+                organization grows, you want to see your HR
+                investments scale.</td>
+        </tr>
+
+        <tr>
+            <td>Talent Development</td>
+            <td>Internal hires as a percent
+                of total hires</td>
+            <td>Opportunity for employees for internal mobility.
+                If this percentage is low, there could be a bias
+                towards external talent making career
+                development more difficult.</td>
+        </tr>
+
+        <tr>
+            <td>Compensation</td>
+            <td>Avg. new hire compa-ratio
+                over existing employee
+                compa-ratio</td>
+                <td>Salary compression. If this number increases
+                    over time, existing employees' compensation is
+                    not keeping up with the market.</td>
+        </tr>
+
+    </table>
+    <br>
+
+
+    <table border="1" cellspacing="0" cellpadding="10" width="67%">
+        <tr>
+            <td colspan="2" rowspan="2">&nbsp;</td>
+            
+            <td colspan="2">Manager Quality</td>
+            
+        </tr>
+        <tr>
+            
+            
+            <td>Low</td>
+            <td>High</td>
+        </tr>
+
+        <tr>
+            <td rowspan="2" >Active Sales
+                Pipeline:Quota</td>
+                <td>>1.5</td>
+                <td><b>Elevated probability of attrition:</b>If the employees make their
+                    quota, they might be able to deal
+                    with a bad manager, but
+                    employees are probably open to
+                    entertaining external
+                    opportunities.</td>
+                <td align="center"><b>Low probability of attrition:</b>Employees are set up for
+                    success.</td>
+
+        </tr>
+
+        <tr>
+            
+            <td><1.5</td>
+            <td><b>High probability of attrition:</b>Employees are not set up for
+                success. Probability of meeting
+                quota is low, manager quality is
+                low, both the employee and
+                organization are going to look for
+                a split.</td>
+            <td><b>High probability of attrition:</b>Probability of meeting quota is
+                low. Employees are not set up
+                for success. Even if the
+                manager is great, they are
+                probably going to want to leave
+                because they are not going to
+                make their quota.</td>
+        </tr>
+    </table>
+
+    <br>
+
+
+    <table border="1" cellspacing="0" cellpadding="10" width="67%">
+        <tr>
+            <td colspan="2" rowspan="2">Average candidate satisfaction
+                score: 2.2</td>
+                <td colspan="3">Candidate Satisfaction</td>
+        </tr>
+
+        <tr>
+            <td>Negative (1, 2)</td>
+            <td>Neutral (3)</td>
+            <td>High (4, 5)</td>
+        </tr>
+        <tr>
+            <td rowspan="3">Organizational Action</td>
+            <td>Hire</td>
+                <td>30</td>
+                <td>500</td>
+                <td>1000</td>
+        </tr>
+        <tr>
+            <td>Do not hire after
+                screen/interview</td>
+                <td>8000</td>
+                <td>2,000</td>
+                <td>500</td>
+        </tr>
+
+        <tr>
+            <td>Candidate not
+                reviewed but
+                rejected</td>
+                <td>300</td>
+                <td>0</td>
+                <td>0</td>
+        </tr>
+
+        
+
+    </table>
+
+    <br>
+
+    <table border="1" cellspacing="0" cellpadding="10" width="67%">
+        <tr>
+            <td></td>
+            <td></td>
+            <td><b>Definition:</b></td>
+            <td><b>Accountable
+                Party</b></td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td><b>Quality of Hire</b></td>
+            <td>The value the new hire brings
+                to the organization as
+                measured by individual factors
+                and impacted by contextual
+                factors</td>
+                <td>Talent
+                    Acquisition????</td>
+        </tr>
+
+        <tr>
+            <td>Individual
+                factors</td>
+                <td>Quality of candidate</td>
+                <td>How well did the candidate
+                    match the job description?</td>
+                    <td>Talent Acquisition</td>
+
+        </tr>
+
+        <tr>
+            <td></td>
+            <td>1 year retention rate</td>
+            <td>Did the new hire stay beyond
+                1 year?</td>
+                <td>Business,
+                    Manager & HR</td>
+
+        </tr>
+
+        <tr>
+            <td></td>
+            <td>Time to productivity</td>
+            <td>How long did it take for the
+                new hire to become fully
+                productive compared to the
+                average?</td>
+                <td>Onboarding &
+                    Manager</td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td>Rehire score</td>
+            <td>Would the hiring manager
+                rehire knowing what he/she
+                knows now?</td>
+            <td>Manager</td>
+        </tr>
+
+
+        <tr>
+            <td>Contextual
+                factors</td>
+            <td>Quality of manager</td>
+            <td>How does the team rate the
+                manager on key survey items?</td>
+            <td>Manager,
+                Business & HR</td>            
+        </tr>
+
+        <tr>
+            <td></td>
+            <td>Quality of onboarding</td>
+            <td>How does the individual rate
+                the onboarding in preparing
+                him/her/they for their job?</td>
+            <td>Onboarding</td>
+            
+        </tr>
+
+        <tr>
+            <td></td>
+            <td>Quality of team</td>
+            <td>How does the team rate each
+                other in terms of support?</td>
+            <td>Manager & HR</td>
+        </tr>
+    </table>
+
 </body>
 </html>
